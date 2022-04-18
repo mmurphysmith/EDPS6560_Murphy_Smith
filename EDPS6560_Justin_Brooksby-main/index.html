@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+
+		<!-- My Personal Stylesheet -->
+		<link rel="stylesheet" href="css/styles.css" />
+
+		
+        <!-- Title of my website.  This appears in the browser navigation bar -->
+		<title>Harry Potter Profile</title>
+	</head>
+
+	<body>
+		<!-- Welcome to EDPS 6560 Week 5 - This is an example comment!-->
+        
+		<div id="sec_lan" class="container-fluid"> <!-- This is where I define my main container for the entire website -->
+            <div id="sec_lan_header" class="row justify-content-between align-items-center"><!-- This is my first row, set this before column. Using bootstrap code to align items -->
+				<div class="col-4"><!-- This is my first column nexted in that first row. Auto seperates my colums, see bootstrap documentation on margin utilities -->
+					<h1><strong>Harry Potter</strong></h1><!-- This is text in that first column -->
+				</div>
+				<div class="col-2"><!-- This is my second column within my first row -->
+					<i class="fa-solid fa-box"></i>
+                    <a href="box_model.html">Box Model</a><!-- This is the text in my second column in the first row. Icon from Font Awesome -->
+                    </div>
+                    <div class="col-2"><!-- This is my third column within my first row -->
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <a href="position.html">CSS Position</a>
+				</div>
+                <div class="col-2"><!-- This is my fourth column within my first row -->
+                    <i class="fa-solid fa-box-open"></i>
+                    <a href="flexbox.html">Flex Box</a>
+				</div>
+                <div class="col-2"><!-- This is my fifth column within my first row -->
+                    <i class="fa-solid fa-wand-sparkles"></i>
+                    <a href="animations.html">Animations</a>
+				</div>
+			</div><!-- This is the end of my first row AND Columns that are nested within it -->
+			
+            <!-- This is my second row -->
+            <div id="sec_lan_sec1" class="row justify-content-around align-items-center">
+				<div class="col-7"><!-- This is first column in second row -->
+					<h2>Student of Witchcraft and Wizardry</h2>
+					<h4>Defense Against the Dark Arts | Potions | Herbology</h4>   
+				</div>
+				 <div class="col-4 d-none d-md-block"><!-- Second Column. This column is set up to disappear when it gets smaller than md -->
+                     <img src="img/potter_image.png" class="img-fluid" alt="Harry Potter - Image by Eleatell from Pixabay" />
+                     <!--<img src="/img/potter_image.png" width="100%" height="auto" alt="Harry Potter - Image by Eleatell from Pixabay" />-->
+					<!--Image by <https://pixabay.com/users/eleatell-15115856/-->
+				</div>
+			</div><!-- This is the end of my second row AND Columns that are nested within it -->
+			
+            <!-- This is my third row -->
+            <div id="sec_lan_sec2" class="row justify-content-around align-items-center">
+				<div class="col-6 offset-1 align-self-center"><!-- This is the only column in this row. Centered and offset by 1 -->
+					<h4>
+						<i class="fa-brands fa-twitter fa-1x"></i> It is the quality of one's convictions that determines success, not the number of followers.<!-- Using another icon from FontAwesome -->
+					</h4>
+                    <br>
+					<a class="btn btn-lg btn-primary rounded-pill" role="button" href="contact.html">Learn More</a>
+				</div>
+                
+			</div><!-- This is the end of my third row AND Columns that are nested within it -->
+		</div><!-- This is the end of the entire container -->
+		
+
+
+        
+        
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

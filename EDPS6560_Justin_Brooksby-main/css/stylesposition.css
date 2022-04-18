@@ -1,0 +1,32 @@
+.parent{
+    font-size: 30px;
+    background-color: #00AAFF;
+    padding: 5px;
+    position:relative;
+    height: 200vh;
+
+}
+.child-one{
+    background-color: rgb(116,255,116);
+    position: sticky;
+    top: 0px;
+   
+    
+}
+.child-two{
+    background-color: rgb(248,117,117);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    
+}
+.child-three{
+    background-color: rgb(255,116,232);
+    position: fixed;
+    top: 0px;
+    right: 500px;
+    width: 300px;
+    height: 300px;
+}

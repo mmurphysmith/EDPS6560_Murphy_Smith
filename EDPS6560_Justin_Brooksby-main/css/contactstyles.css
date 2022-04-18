@@ -1,0 +1,138 @@
+.parent{
+    font-size: 30px;
+    background-color: #740001;
+    padding: 1px;
+    position:relative;
+    height: 25vh;
+}
+
+    .child-one{
+        background-color: #D3A625;
+        position: sticky;
+        top: 0px;
+        font-family: 'Reggae One', cursive;
+        justify-content: space-around;
+    }
+
+    .child-two{
+        background-image:url("../img/potter_image.png");
+        background-size: 300px auto;
+        background-repeat:no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 300px;
+        height: 300px;
+    }
+
+    
+
+ .broomparent{
+    width: auto;
+    height: 400px;
+    background-color: #740001;
+    
+}
+
+.broomchild{
+    height: 50%;
+    width: 50%;
+    
+    background-image:url("../img/broom.png");
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation: broom 10s ease-in forwards infinite alternate ;
+}
+
+.parentanimate:hover .childanimate{
+    animation-play-state: paused;
+}
+
+@keyframes broom{
+    0%{transform: translatex(0%);}
+    33%{transform: translateY(100%);}
+    66%{transform: translateX(100%)translateY(100%);}
+    77%{transform: scaleX(-1);}
+    100%{transform: translatex(100%);}
+}
+
+.flexbox-container{
+    background-color: #740001;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+    .flexbox-item{
+        width: 300px;
+        margin: 10px;
+        border: 3px solid #333;
+        background-color: #dfdfdf;
+        text-align: center;
+        justify-items: center;
+        font-family: 'Reggae One', cursive;
+    
+        }
+
+        .flexbox-item-1{ 
+            min-width: 400px;
+            padding: 10px;
+            border: 10px solid #D3A625;
+        
+        }
+
+        .flexbox-item-2{
+            min-width: 500px;
+            padding: 10px;
+            border: 10px solid #D3A625;
+        }
+
+        .flexbox-item-3{ 
+            padding: 10px;
+            border: 10px solid #D3A625;
+           
+        }
+
+
+
+   
+
+:root {
+	/* Fonts */
+	--main-font-primary: "Roboto", sans-serif;
+	--main-font-secondary: "Montserrat", sans-serif;
+	--main-font-tertiary: "Comfortaa", cursive;
+    --font-family1: 'Reggae One', cursive;
+    --font-family2: 'Rowdies', cursive;
+    
+	/* Colors */
+	--main-color-gray: #485359;
+	--main-color-white: #ffffff;
+	--main-color-black: #0d0d0d;
+	--main-color-light: #5ef2ad;
+	--main-color-dark: #45735d;
+	--main-color-light2: #f38888;
+	--main-color-dark2: #d27575;
+	--main-color-light3: #a0d3f2;
+	--main-color-dark3: #769bb3;
+    
+    /* Harry Potter Colors*/
+    --gryffindor-red: #740001;
+    --gryffindor-gold: #D3A625;
+    --slytherin-green: #1A472A;
+    --slytherin-silver: #5D5D5D;
+    --hufflepuff-yellow: #FFD800;
+    --hufflepuff-black: #000000;
+    --ravenclaw-blue: #0E1A40;
+    --ravenclaw-bronze: #946B2D;
+}
+
+    <!--flex-wrap: wrap;-->
+    <!--justify-content: space-around;-->
+    <!--align-items: center;-->
+    <!--align-content: space-around;-->
