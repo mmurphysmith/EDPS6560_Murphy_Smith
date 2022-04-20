@@ -1,0 +1,15 @@
+.element1{
+    color:black;
+    background-color:blue;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 30px solid pink;
+    margin: 10px;
+    background-image:url("../img/bike2.jpg");
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    float: left
+}
