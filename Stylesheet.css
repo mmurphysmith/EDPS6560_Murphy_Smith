@@ -48,11 +48,12 @@ html{
 	height: 10vh;
 	background-color: var(--main-color-beige);
     font-family: 'Playfair Display', sans-serif;
+    font-size: 140%
 }
 
 
 #sec_lan_sec1 {
-	height: 30vh;
+	height: 40vh;
 	background-color: var(--main-color-lightgreen);
     font-family: 'Karla', sans-serif;
     
@@ -111,4 +112,3 @@ No media query for `xs` since this is the default in Bootstrap */
         
         
 } 
-
