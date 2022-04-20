@@ -1,6 +1,114 @@
-h2 {color: green;}
-p {font: timesnewroman;}
-h1 {background-color: coral;}
-#Education {background-color:purple;}
-#Experience {background-color:coral;}
-#Portfolio {background-color:pink;)
+/* CSS Reference from W3School: https://www.w3schools.com/cssref/ */
+
+/* Example Variables */
+:root {
+	/* Fonts */
+	--main-font-primary: "Quicksand", sans-serif;
+	--main-font-secondary: "Playfair Display", sans-serif;
+	--main-font-tertiary: "Karla", cursive;
+    --font-family1: 'Quicksand', sans-serif;
+    --font-family2: 'Playfair Display', sans-serif;
+    --font-family3: 'Karla', sans-serif;
+
+    
+	/* Colors */
+	--main-color-beige: #EDE6DB;
+	--main-color-white: #ffffff;
+	--main-color-black: #0d0d0d;
+	--main-color-lightgreen: #417D7A;
+	--main-color-dark: #1D5C63;
+	--main-color-light2: #1A3C40;
+   
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover{
+    color: white
+}
+
+h1{color:black}
+html{
+    font-size:50%
+}
+
+#sec_lan {
+	height: 10vh;
+	background-color: var(--main-color-lightgreen);
+    font-family: 'Karla', sans-serif;
+    
+}
+
+
+#sec_lan_header {
+	height: 10vh;
+	background-color: var(--main-color-beige);
+    font-family: 'Playfair Display', sans-serif;
+}
+
+
+#sec_lan_sec1 {
+	height: 30vh;
+	background-color: var(--main-color-lightgreen);
+    font-family: 'Karla', sans-serif;
+    
+}
+
+
+#sec_lan_sec2 {
+	height: 40vh;
+	background-color: var(--main-color-dark);
+    font-family: 'Karla', sans-serif;
+    color:white;
+    font-size: 150%;
+    font-stretch: expanded;
+    
+        
+
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Example Syntax */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    html{
+    font-size:70%}
+}
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   html{
+    font-size:100%}
+} 
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    html{
+    font-size:100%}
+}
+    
+
+/* Extra large devices (large desktops, 1200px and up) Look at the variations to the H1 font wheen the device displays greater than 1200px, */
+@media (min-width: 1200px) {
+   html{
+    font-size:100%}
+    h1{color: var(--slytherin-green);
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    
+        
+        
+} 
+
