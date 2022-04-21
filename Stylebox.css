@@ -15,19 +15,18 @@
 }
 .Scale{
     color:white;
-    width: 350px;
-    height:350px;
+     width: 350px;
+    height: 350px;
     padding: 60px;
-    border: 60px ;
-    margin:-40px;
+    border: 30px ;
+    margin: 10px;
     float: center;
     background-color:;
     background-image:url(About%20pics.png);
-    background-size: 300px auto;
-    background-size: 370px auto;
+    background-size: 450px auto;
     background-repeat:no-repeat;
-    background-position: right;
+    background-position: center;
     box-sizing: border-box;
-    float: right
+    float:left
     
 }
