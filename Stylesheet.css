@@ -39,7 +39,7 @@ html{
 #sec_lan {
 	height: 10vh;
 	background-color: var(--main-color-lightgreen);
-    font-family: 'Karla', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     
 }
 
@@ -55,14 +55,14 @@ html{
 #sec_lan_sec1 {
 	height: 40vh;
 	background-color: var(--main-color-lightgreen);
-    font-family: 'Karla', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     
 }
 
 
 #sec_lan_sec2 {
 	height: 40vh;
-	background-color: var(--main-color-dark);
+	background-color: var(--main-color-beige);
     font-family: 'Karla', sans-serif;
     color:white;
     font-size: 150%;
