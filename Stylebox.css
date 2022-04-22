@@ -13,6 +13,23 @@
     box-sizing: border-box;
     float: right
 }
+
+.element2{
+    color:black;
+    background-color:;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    border: 30px ;
+    margin: 10px;
+    background-image:url("/About%20pics.png");
+    background-size: 370px auto;
+    background-repeat:no-repeat;
+    background-position: bottom;
+    box-sizing: border-box;
+    float: right
+        
+        
 .Scale{
     color:white;
      width: 350px;

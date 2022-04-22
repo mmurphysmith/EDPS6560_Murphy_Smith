@@ -45,10 +45,10 @@ html{
 
 
 #sec_lan_header {
-	height: 10vh;
+	height: 15vh;
 	background-color: var(--main-color-beige);
     font-family: 'Playfair Display', sans-serif;
-    font-size: 140%
+    font-size: 180%
 }
 
 

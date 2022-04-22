@@ -1,13 +1,15 @@
 .Shakespeare{
     display: flex;
     justify-content: center;
-    max-height: 50px;
+    max-height: 60px;
     overflow: hidden;
 }
 
  img{
-     max-height: 50px;
-     padding: 1px;
+     max-height:100px;
+     align-content: top;
+     padding-bottom: 20px;
+     margin-bottom: 10px;
      animation: spin 5s infinite;
  }
 
