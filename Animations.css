@@ -1,0 +1,17 @@
+.Shakespeare{
+    display: flex;
+    justify-content: center;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+ img{
+     max-height: 50px;
+     padding: 1px;
+     animation: spin 5s infinite;
+ }
+
+ @keyframes spin {
+     0%{transform: rotate(-360deg);}
+
+ }
